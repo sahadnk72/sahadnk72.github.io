@@ -5,11 +5,12 @@ title: Bypassing Oculus Email Verification System and Gaining Account Access
 
 ---
 
-We all have seen many kind of verification processes while starting an account with some kind of web service.The most common form of verifications are either through email address or phone numbers or whatever the user has used while creating an account.
+We all have seen many kind of verification processes while starting an account with most web applications.The most common form of verification method is either through email address or phone number or a mix of the both.
+
 This post demonstrates how I bypassed the email address verification system implemented for Oculus, a Facebook acquisition. Abusing this kind of vulnerabilities, we can use anyone's email address to create an account,which stops the original owner from 
 creating an account since the email address is already taken.
 
-But here, the case was even worse. Oculus developer platform worked in a different way. Since companies could register for an account, it recognized company's domain-name from the email address and added every user account created with a 
+<b>But here, the case was even worse</b>. Oculus developer platform worked in a different way. Since companies could register for an account, it recognized company's domain-name from the email address and added every user account created with a 
 company's domain-name,to the company's account as members. Bang!!
 
 For eg: Suppose xCompany has it's email address as `official@xcompany.com` and they uses it to register a company account. Now the admin can add users into the dashboard.

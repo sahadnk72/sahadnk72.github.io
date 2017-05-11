@@ -46,11 +46,11 @@ Here is a video demonstrating the seriousness of how this exploit might have bee
 
 
 {% highlight js %}
-Reported - March 20 2015 <br>
+Reported - March 20 2015 
 
-Clarification - March 21 2015<br>
+Clarification - March 21 2015
 
-Fix & Bounty  - March 24 2015<br>
+Fix & Bounty  - March 24 2015
 
 Hope you enjoyed it!
 

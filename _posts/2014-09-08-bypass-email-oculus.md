@@ -44,12 +44,17 @@ Step 2 : Attacker verifies the email address by clicking on the email verificati
 
 Step 3 : Attacker requests for a password recovery link for his account and extracts the token received. Let's call it `passtoken`.
 
-Step 4 : Attacker goes on and edits the account settings to change his email to an email address with target's domain name (`attacker@xcompany.com`) which sends an email verification link (with `verifytoken`)to that email address which doesn't exist.
+Step 4 : Attacker goes on and edits the account settings to change his email to an email address with target's domain name (`attacker@xcompany.com`) which sends an email verification link (with `verifytoken`)to that email address which doesn't even exist.
 
-Step 5 : Attacker uses the initially extracted token (`passtoken`) on email-verify endpoint and circumvents the protection.
-
-
-It worked both the `passtoken` and `verifytoken` are still valid for his account, and the application failed to validate/differentiate it's use. 
+Step 5 : Attacker uses the initially extracted token (`passtoken`) on email-verify endpoint and circumvents the protection and ends up being a member of `xCompany`. Profit!!
 
 
-{% highlight text %} Report sent : 28 Aug 2014 Escalation : 29 Aug 2014 Fix : 07 September 2014 Bounty awarded : 08 September 2014 {% endhighlight %}
+It worked because,both the `passtoken` and `verifytoken` were still valid for his account, and the application failed to validate/differentiate it's purpose. 
+
+
+{% highlight text %} 
+Report sent : 28 Aug 2014 
+Escalation : 29 Aug 2014 
+Fix : 07 September 2014 
+Bounty awarded : 08 September 2014 
+{% endhighlight %}

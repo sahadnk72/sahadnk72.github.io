@@ -6,6 +6,7 @@ title: How I hacked into Oculus VR Developer Portal
 ---
 
 
+<h1>sahadnk</h1>
 
 Oculus VR - one of the Facebook acquisitions,was vulnerable to many severe issues including RCE,multiple SQL-injection,and multiple CSRFs.
 Many researchers such as Jon of Bitquark,Inti De Ceukelaire,Josip Franjković squeezed it to a more secure level.I knew that all the low hanging fruits might had gone.Nevertheless,I gave it a shot.It is my second finding on Oculus; first was something which allowed me to add anyone's email to an account and verify it without their interaction by crafting a verification link.This is also somewhat similar,which enabled me to reset someone's password and allowed to authenticate into their account.Each time I reproduced the request,got access to different accounts,which in turn changed their password as well.

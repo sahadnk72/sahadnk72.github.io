@@ -14,3 +14,10 @@ After trying with many known tricks to bypass the protection there, and with zer
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/01a1aProHRU" frameborder="0" allowfullscreen></iframe>
+
+Voilaaa!!!
+
+A nice bounty followed up after it was reported to the Facebook security team.
+
+
+Hope you enjoyed reading it!

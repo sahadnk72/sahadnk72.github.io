@@ -20,17 +20,17 @@ For all of the things mentioned above to happen,the users should verify their em
 
 What if an attacker manages to bypass the verification system?
 
-He can create an account/replace existing email with target's email address( `attacker@xcompany.com` ) and can end up being a member of the developer team for xCompany.
+He can create an account/replace existing email with target's email address(`attacker@xcompany.com`) and can end up being a member of the developer team for xCompany.
 
 #### Description
 
 
-I've encountered it multiple times that some web-applications accepts the same secret-token or verification-code on multiple endpoints.To be more specific, when we request for a password recovery a password reset token is sent 
-to our email address.Now the link received through email looks like this:
+I've encountered it multiple times that some web-applications accepts the same secret-token or verification-code on multiple endpoints.To be more specific, when we request for a password recovery, a password reset token is sent 
+to our email address.Consider the link received through email looks like this:
 
 `https://developer.oculusvr.com/pass-reset?token=6dd53acf465aa5fbb91ba2a6c7f7`
 
-Then there is a chance that the same token `6dd53acf465aa5fbb91ba2a6c7f7` gets accepted for email verification too, for eg:
+Then there is a chance that the same token (`6dd53acf465aa5fbb91ba2a6c7f7`) gets accepted for email verification too, for eg:
 
 `https://developer.oculusvr.com/email-verify?token=6dd53acf465aa5fbb91ba2a6c7f7`
 
@@ -38,15 +38,15 @@ Then there is a chance that the same token `6dd53acf465aa5fbb91ba2a6c7f7` gets a
 #### How it works
 
 
-Step 1 : Attacker creates an account with his own email address (for eg, `attacker@gmail.com`)
+Step 1 : Attacker creates an account with his own email address (for eg,`attacker@gmail.com`)
 
 Step 2 : Attacker verifies the email address by clicking on the email verification link received to his inbox.
 
 Step 3 : Attacker requests for a password recovery link for his account and extracts the token received. Let's call it `passtoken`.
 
-Step 4 : Attacker goes on and edits the account settings to change his email to an email address with target's domain name ( `attacker@xcompany.com` ) which sends an email verification link (with `verifytoken` )to that email address which doesn't exist.
+Step 4 : Attacker goes on and edits the account settings to change his email to an email address with target's domain name (`attacker@xcompany.com`) which sends an email verification link (with `verifytoken`)to that email address which doesn't exist.
 
-Step 5 : Attacker uses the initially extracted token ( `passtoken` ) on email-verify endpoint and circumvents the protection.
+Step 5 : Attacker uses the initially extracted token (`passtoken`) on email-verify endpoint and circumvents the protection.
 
 
 It worked both the `passtoken` and `verifytoken` are still valid for his account, and the application failed to validate/differentiate it's use. 

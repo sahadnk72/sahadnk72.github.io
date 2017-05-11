@@ -44,6 +44,8 @@ On interfaces which require JS support, it is possible to bypass JS frame-bustin
 Simple as that, it was possible to iframe Facebook and make you do undesirable amount of things. 
 Here is a video demonstrating the seriousness of how this exploit might have been abused:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fGnRA5J0vMU" frameborder="0" allowfullscreen></iframe>
+
 
 {% highlight text %}
 Reported - March 20 2015 

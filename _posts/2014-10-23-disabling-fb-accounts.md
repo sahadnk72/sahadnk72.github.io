@@ -25,3 +25,5 @@ Escalation : 29 Aug 2014
 Fix : 23 October 2014
 Bounty awarded : 23 October 2014
 {% endhighlight %}
+
+Hope you enjoyed reading it!

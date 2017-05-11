@@ -45,7 +45,7 @@ Simple as that, it was possible to iframe Facebook and make you do undesirable a
 Here is a video demonstrating the seriousness of how this exploit might have been abused:
 
 
-
+{% highlight js %}
 Reported - March 20 2015 <br>
 
 Clarification - March 21 2015<br>
@@ -53,3 +53,5 @@ Clarification - March 21 2015<br>
 Fix & Bounty  - March 24 2015<br>
 
 Hope you enjoyed it!
+
+{% endhighlight %}

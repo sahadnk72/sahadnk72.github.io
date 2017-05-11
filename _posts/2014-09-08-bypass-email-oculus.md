@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bypassing Oculus Email Verification System to gain account access
+title: Bypassing Oculus Email Verification System and Gaining Account Access
 ---
 
 ---

@@ -3,7 +3,7 @@
 #### Description
 
   This post is about a simple bug I found in Facebook which allowed me to chat with any minor,even if they are not in our friendslist.
-It is a privacy issue where a user could send messages to a minor who is a total stranger when they shouldn't be able to do so.
+It was a privacy issue where a user could send messages to a minor who was a total stranger when they shouldn't be able to do so.
 
 According to Facebook,
 Minors can receive messages only from people who are friends of friends and people who have their contact information (ex: email address or phone number). This may include adults they don’t know.

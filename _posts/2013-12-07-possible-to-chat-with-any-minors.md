@@ -3,6 +3,8 @@ layout: post
 title: Possible to chat with any minors - Facebook Bug
 ---
 
+---
+
 #### Description
 
   This post is about a simple bug I found in Facebook which allowed me to chat with any minor,even if they are not in our friendslist.

@@ -1,5 +1,3 @@
-
-
 ---
 layout: post
 title: Possible to chat with any minors - Facebook Bug

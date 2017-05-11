@@ -14,7 +14,9 @@ baseurl:          /
 
 author:
   name:           'Sahad NK'
-  twitter:            https://twitter.com/sahad_nk
+  twitter:            https://twitter.com/sahad_nk/
+  facebook:           https://facebook.com/sahad.nk.nk/
+  linkedin:           https://www.linkedin.com/in/sahadnk/
 
 paginate:         5
 

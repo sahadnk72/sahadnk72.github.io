@@ -12,4 +12,7 @@ Many researchers such as Jon of Bitquark,Inti De Ceukelaire,Josip Franjković sq
 After trying with many known tricks to bypass the protection there, and with zero results, an idea struck my mind. This trick used arrays in query parameters to confuse the web application and give out what I really wanted.
 
 
+
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/01a1aProHRU" frameborder="0" allowfullscreen></iframe>

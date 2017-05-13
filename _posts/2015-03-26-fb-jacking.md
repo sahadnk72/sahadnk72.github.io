@@ -49,7 +49,7 @@ Here is a video demonstrating the seriousness of how this exploit might have bee
 
 {% highlight text %}
 Reported - March 20 2015 
-Clarification - March 21 2015
+Clarification sent - March 21 2015
 Fix & Bounty  - March 24 2015
 {% endhighlight %}
 

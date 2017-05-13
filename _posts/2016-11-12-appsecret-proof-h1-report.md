@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Leaking Facebook appsecret_proof From a Private Bounty
+title: Leaking Facebook appsecret_proof from a Private Bounty
 ---
 
 ---

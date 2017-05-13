@@ -31,42 +31,22 @@
       <a class="sidebar-nav-item" href="{{ site.author.linkedin }}" target="_blank">LinkedIN</a>
       <a class="sidebar-nav-item" href="{{ site.author.facebook }}" target="_blank">Facebook</a>
       
-   {% assign currentYear = site.time | date: "%Y" %}
-{% assign currentMonth = site.time | date: "%B" %}
-{% for post in site.posts %}
-    
-    {% assign postYear = post.date | date: "%Y" %}
-    {% assign postMonth = post.date  | date: "%B" %}
-    
-    {% if forloop.first %}
-    <li> {{ postYear}}
-        <ul>
-            <li> {{ postMonth }}
-                <ul>
-    {% endif %}
-    
-    {% if (postYear == currentYear and postMonth == currentMonth) or forloop.first %}
-        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endif %}
-    
-    {% if postYear == currentYear and postMonth != currentMonth %}
-        </ul></li>
-        <li> {{ postMonth }}
-            <ul>
-                <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endif %}
-    
-    {% if postYear != currentYear %}
-        </ul></li></ul></li>
-            <li> {{ postYear}}
-                <ul>
-                    <li> {{ postMonth }}
-                        <ul>
-                            <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endif %}
-    {% assign currentYear = postYear %}
-    {% assign currentMonth = postMonth %}
-{% endfor %}
+ <section class="archive-post-list">
+
+   {% for post in site.posts %}
+       {% assign currentDate = post.date | date: "%Y" %}
+       {% if currentDate != myDate %}
+           {% unless forloop.first %}</ul>{% endunless %}
+           <h1>{{ currentDate }}</h1>
+           <ul>
+           {% assign myDate = currentDate %}
+       {% endif %}
+       <li><a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d, %Y" }}</span> - {{ post.title }}</a></li>
+       {% if forloop.last %}</ul>{% endif %}
+   {% endfor %}
+
+</section>
+ 
      
     </nav>
 

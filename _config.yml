@@ -25,3 +25,6 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/sahadnk72/pagefault
+  
+  # Google services
+google_analytics: UA-99095981-1

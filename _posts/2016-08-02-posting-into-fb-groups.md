@@ -5,13 +5,12 @@ title: Publishing to /group/photos/ without sufficient permissions - Facebook Bu
 
 ---
 
-#### Description
-
 <i>Update : It is found that this issue was already reported by <a href="http://philippeharewood.com/the-group-idphotos-endpoint-isnt-obeying-the-publish_actions-and-user_groups-permission-requirement/">Philippe Harewood</a> and fixed by Facebook 
 even before my report. This is just another example of how code changes might have caused the same vulnerability to reappear.</i>
 
+---
 
-
+#### Description
 
 
 According to Facebook's Graph API documentation about <a href="https://developers.facebook.com/docs/graph-api/reference/v2.9/group/feed">publishing to groups</a> other than 'App and Games groups' needs `publish_actions` and either `user_managed_groups` or `user_groups` permissions.

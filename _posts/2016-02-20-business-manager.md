@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Publishing to /group/photos/ without sufficient permissions - Facebook Bug
+title: Facebook Business Manager Email Address Verification Bypass
 ---
 
 

@@ -60,6 +60,7 @@ html {
   background-color: #202020;
   top: 0;
   bottom: 0;
+  overflow-y: scroll;
 }
 @media (min-width: 48em) {
   .sidebar {

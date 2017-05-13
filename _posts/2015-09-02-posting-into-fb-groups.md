@@ -8,7 +8,9 @@ title: Bypassing Instagram Email Verification System
 #### Description
 
 Update : It is found that this bug was already reported by <a href="http://philippeharewood.com/the-group-idphotos-endpoint-isnt-obeying-the-publish_actions-and-user_groups-permission-requirement/">Philippe Harewood</a> and fixed by Facebook 
-even before my report. This is another example to understand how code changes might have caused the same vulnerability to reappear.
+even before my report. This is another example to understand how code changes must have caused the same vulnerability to reappear.
+
+
 
 
 
@@ -34,10 +36,10 @@ It posts an update to the attacker targeted group (ofcourse, victim should be a 
 It returns an id and post_id after posting the update.
 
 {% highlight text %} 
-Report sent : 22 Feb 2015 
-Escalation : Never notified
-Fix : 17 March 2015 
-Bounty awarded : 18 March 2015 
+Report sent : 02 Sep 2015 
+Escalation : 22 Sep 2015 
+Fix : Fixed sometime after rewarding the bounty.
+Bounty awarded : 04 May 2015 
 {% endhighlight %}
 
 Thanks for reading!

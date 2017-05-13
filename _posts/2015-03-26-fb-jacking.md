@@ -54,4 +54,4 @@ Fix & Bounty  - March 24 2015
 {% endhighlight %}
 
 
-Hope you enjoyed reading it!
+Thanks for reading!

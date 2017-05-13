@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bypassing Instagram Email Verification System
+title: Publishing to /group/photos/ without sufficient permissions - Facebook Bug
 ---
 
 ---
@@ -33,12 +33,12 @@ It posts an update to the attacker targeted group (ofcourse, victim should be a 
 
 3.Complete the request.
 
-It returns an id and post_id after posting the update.
+It returns an id and post_id after posting the update. 
 
 {% highlight text %} 
 Report sent : 02 Sep 2015 
 Escalation : 22 Sep 2015 
-Fix : Fixed sometime after rewarding the bounty.
+Fix : Sometime after rewarding the bounty.
 Bounty awarded : 04 May 2015 
 {% endhighlight %}
 

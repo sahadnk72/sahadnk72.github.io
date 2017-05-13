@@ -53,11 +53,6 @@ html {
  * out above content in mobile and later moves to the side with wider viewports.
  */
 
-.scroll-bar-indicator
-{
-	display: none;
-}
-
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
@@ -66,7 +61,7 @@ html {
   overflow-y: scroll;
   top: 0;
   bottom: 0;
-  padding-right: 17px;
+  padding-right: 28px;
 }
 @media (min-width: 48em) {
   .sidebar {

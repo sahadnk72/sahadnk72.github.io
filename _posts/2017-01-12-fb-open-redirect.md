@@ -14,7 +14,7 @@ I found that the GET parameter named `groupuri` at the endpoint `https://www.fac
 url redirections to external websites. It disallowed direct injection of external links and any suspicious activity would cause a redirection to /home.php.
 So I abused the URL shortening feature `fb.me`. It had some black-list based validations to ensure that no redirections are permitted towards existing `fb.me` service domains 
 such as `d.fb.me` , `on.fb.me`, `www.fb.me` and `fb.me`.
-After some fuzzing and playing around with the parameter `groupuri`, I tried if arbitrary subdomains of fb.me (for eg: `dfHDKJFHjdhf.fb.me`) except the ones mentioned above would work and VOILAAA...a 302.
+After some fuzzing and playing around with the parameter `groupuri`, I tried if arbitrary subdomains of fb.me (for eg: `dfHDKJFHjdhf.fb.me`) except the ones mentioned above would work and VOILAAA...a `302` was issued.
 I was able to shorten an external url using fb.me and tried if it would make redirections if a request is made to any arbitrary sub-domain of fb.me. That worked and I proceeded onto writing a cool report. 
 What happened here is, instead of using a regex based validation technique, Facebook relied up on a black-listed based approach. 
 

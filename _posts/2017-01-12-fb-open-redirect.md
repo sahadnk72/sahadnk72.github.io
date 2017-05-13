@@ -15,7 +15,13 @@ url redirections to external websites. It disallowed direct injection of externa
 So I abused the URL shortening feature `fb.me`. It had some black-list based validations to ensure that no redirections are permitted towards existing `fb.me` service domains 
 such as `d.fb.me` , `on.fb.me`, `www.fb.me` and `fb.me`.
 After some fuzzing and playing around with the parameter `groupuri`, I tried if arbitrary subdomains of fb.me (for eg: `dfHDKJFHjdhf.fb.me`) except the ones mentioned above would work and VOILAAA...a `302` was issued.
-I was able to shorten an external url using fb.me and tried if it would make redirections if a request is made to any arbitrary sub-domain of fb.me. That worked and I proceeded onto writing a cool report. 
+After shortening an external url with fb.me, I checked if visiting blah.fb.me would actually make a redirection to the website and fortunately that worked. I proceeded on to making a cool report. So the final url looked like this : 
+
+
+
+`https://www.facebook.com/browsegroups/addcover/log/?groupid=1&groupuri=https://<anything>.fb.me/iDent1fi3R`
+
+
 What happened here is, instead of using a regex based validation technique, Facebook relied up on a black-listed based approach. 
 
 {% highlight text %}

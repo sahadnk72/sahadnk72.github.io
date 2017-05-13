@@ -10,7 +10,7 @@ While analysing the Oauth implementations and authentication procedures for a pr
 that allowed me to leak appsecret_proof (`hash_hmac('sha256', app_access_token, app_secret)`) which was being submitted to Facebook servers 
 from the app server. 
 
-What's appsecret_proof? <a href="https://developers.facebook.com/docs/graph-api/securing-requests">Read more about it here.</a>
+What's appsecret_proof? <a href="https://developers.facebook.com/docs/graph-api/securing-requests">Read more</a>
 
 
 While signing into `site.com` using Facebook and intercepting the POST request containing the `access_token` which was being submitted to `https://www.site.com/auth/facebook` after the Oauth flow,

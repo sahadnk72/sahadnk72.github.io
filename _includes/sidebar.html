@@ -37,7 +37,7 @@
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
-           <h3>{{ currentDate }}</h3>
+      <font color="#fff"><h3>{{ currentDate }}</h3></font>
            <ul>
            {% assign myDate = currentDate %}
        {% endif %}

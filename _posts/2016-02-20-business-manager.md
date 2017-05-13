@@ -14,17 +14,17 @@ I found it possible to cicumvent this feature to add any business email address 
 
 #### Reproduction:
 
-1. Authenticate into Business Manager.
+  1. Authenticate into Business Manager.
 
-2. Go to Business settings --> People.
+  2. Go to Business settings --> People.
 
-3. Edit the email address of say, admin to any address.
+  3. Edit the email address of say, admin to any address.
 
-4.Capture the request using any intercepting proxy and edit the value of parameter `email` to the target business' email and edit the value of parameter `pending_email` to attacker's own email address.
+  4.Capture the request using any intercepting proxy and edit the value of parameter `email` to the target business' email and edit the value of parameter `pending_email` to attacker's own email address.
 
-5.Complete the request and reload the page.
+  5.Complete the request and reload the page.
 
- New email address was added bypassing the verification process.
+New email address was added bypassing the verification process.
 
 
 {% highlight text %} 

@@ -54,13 +54,13 @@ html {
  */
 
 .sidebar {
-  position: fixed;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2rem 2rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
   top: 0;
   bottom: 0;
+  overflow-y: scroll;
 }
 @media (min-width: 48em) {
   .sidebar {

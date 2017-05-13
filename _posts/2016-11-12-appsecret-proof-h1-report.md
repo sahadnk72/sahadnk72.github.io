@@ -20,7 +20,7 @@ remote server and passed it on to user end. The error response contained both th
 
 
 
-Site.com fixed the vulnerability by validating the response they receive from Facebook servers and rewarded me with an awesome bounty ;)
+Site.com fixed the vulnerability by validating the response they receive from remote server and rewarded me with an awesome bounty ;)
 
 After that, I went ahead and gave Facebook a heads up as there must be hundreds of apps following the same strategy in their implementations. Although it had nothing to do with Facebook, it still had something to do with 
 them as throwing the appsecret_proof which the client just submitted,back to them within the error message was pretty unnecessary and something Facebook had

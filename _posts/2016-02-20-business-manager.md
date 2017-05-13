@@ -24,12 +24,12 @@ I found it possible to cicumvent this feature to add any business email address 
 
 5. Complete the request and reload the page.
 
-New email address was added bypassing the verification process.
+It adds the new email address bypassing the verification process.
 
 
 {% highlight text %} 
 Report sent : 04 Dec 2015 
 {% endhighlight %}
 
-It was deemed as a duplicate report by Facebook security team.Thanks for reading!
+It was deemed as a duplicate report by the security team. Thanks for reading!
 

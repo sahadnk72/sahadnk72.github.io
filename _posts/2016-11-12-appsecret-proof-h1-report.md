@@ -4,7 +4,7 @@ title: Leaking Facebook appsecret_proof From a Private Bounty
 ---
 
 ---
-#### Description
+
 
 While analysing the Oauth implementations and authentication procedures for a private bounty target in Hackerone, I found something 
 that allowed me to leak appsecret_proof (`hash_hmac('sha256', app_access_token, app_secret)`) which was being submitted to Facebook servers 

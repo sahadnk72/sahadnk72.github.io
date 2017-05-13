@@ -54,6 +54,7 @@ html {
  */
 
 .sidebar {
+  position: fixed;
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
@@ -61,7 +62,6 @@ html {
   overflow-y: scroll;
   top: 0;
   bottom: 0;
-  padding-right: 2rem;
 }
 @media (min-width: 48em) {
   .sidebar {

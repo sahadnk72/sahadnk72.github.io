@@ -16,7 +16,7 @@ It was possible for a page moderator with Facebook Messenger access_token to cha
 
 
 
-The parameter 'timeline_visibility'can have values: `hidden`, `normal` and `starred`.  
+The GET parameter `timeline_visibility` can have values: `hidden`, `normal` and `starred`.  
 
 
 Upon successful request, the timeline visibility of the particular post changed into whatever state I put in.

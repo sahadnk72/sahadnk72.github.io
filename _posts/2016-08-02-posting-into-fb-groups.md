@@ -14,7 +14,7 @@ even before my report. This is another example to understand how code changes mu
 
 
 
-According to Facebook's Graph API documentation about <a href="https://developers.facebook.com/docs/graph-api/reference/v2.9/group/feed">publishing to groups</a> other than 'App and Games groups' needs `publish_actions` permission and either `user_managed_groups` or `user_groups` permission.
+According to Facebook's Graph API documentation about <a href="https://developers.facebook.com/docs/graph-api/reference/v2.9/group/feed">publishing to groups</a> other than 'App and Games groups' needs `publish_actions` and either `user_managed_groups` or `user_groups` permissions.
 
 It was found possible to publish through the `photos` edge without setting `user_managed_groups` or `user_groups` scope, but only `publish_actions` in the access_token. 
 

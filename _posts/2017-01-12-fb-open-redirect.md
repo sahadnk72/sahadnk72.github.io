@@ -7,9 +7,12 @@ title: Unvalidated URL Redirect - Facebook Bug Bounty
 
 #### Description
 
+
 An open redirector requires no explanation. Unvalidated redirects and forwards are possible when a web application 
 accepts untrusted input that could cause the web application to redirect the request to a URL contained within untrusted input.
-(Source : OWASP)
+
+
+#### PoC
 
 I found that the GET parameter named `groupuri` at the endpoint `https://www.facebook.com/browsegroups/addcover/log` could be manipulated to achieve
 url redirections to external websites. It disallowed direct injection of external links and any suspicious activity would cause a redirection to /home.php.

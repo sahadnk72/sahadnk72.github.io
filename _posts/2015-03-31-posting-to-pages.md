@@ -19,4 +19,4 @@ Fix : 06 April 2015
 Bounty awarded : 06 April 2015 
 {% endhighlight %}
 
-Hope you enjoyed reading it!
+Thanks for reading!

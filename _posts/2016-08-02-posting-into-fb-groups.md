@@ -8,7 +8,7 @@ title: Publishing to /group/photos/ without sufficient permissions - Facebook Bu
 #### Description
 
 <i>Update : It is found that this bug was already reported by <a href="http://philippeharewood.com/the-group-idphotos-endpoint-isnt-obeying-the-publish_actions-and-user_groups-permission-requirement/">Philippe Harewood</a> and fixed by Facebook 
-even before my report. This is another example to understand how code changes must have caused the same vulnerability to reappear.</i>
+even before my report. This is just another example of how code changes might have caused the same vulnerability to reappear.</i>
 
 
 

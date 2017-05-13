@@ -7,8 +7,8 @@ title: Bypassing Instagram Email Verification System
 
 #### Description
 
-Update : It is found that this bug was already reported by <a href="http://philippeharewood.com/the-group-idphotos-endpoint-isnt-obeying-the-publish_actions-and-user_groups-permission-requirement/">Philippe Harewood</a> and fixed by Facebook 
-even before my report. This is another example to understand how code changes must have caused the same vulnerability to reappear.
+<i>Update : It is found that this bug was already reported by <a href="http://philippeharewood.com/the-group-idphotos-endpoint-isnt-obeying-the-publish_actions-and-user_groups-permission-requirement/">Philippe Harewood</a> and fixed by Facebook 
+even before my report. This is another example to understand how code changes must have caused the same vulnerability to reappear.</i>
 
 
 

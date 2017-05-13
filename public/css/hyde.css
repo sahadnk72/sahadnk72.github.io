@@ -57,7 +57,8 @@ html {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  padding-right: 28px;
+  padding-right: 32px;
+  padding-left: 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
   top: 0;

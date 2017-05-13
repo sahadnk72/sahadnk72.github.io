@@ -61,7 +61,7 @@ html {
   overflow-y: scroll;
   top: 0;
   bottom: 0;
-  padding-right: 28px;
+  padding-right: 2rem;
 }
 @media (min-width: 48em) {
   .sidebar {

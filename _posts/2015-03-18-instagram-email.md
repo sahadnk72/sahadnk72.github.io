@@ -12,7 +12,7 @@ and generating a new secret-token to the attacker's own email inbox.
 
 Yeah, and some Base-64 magics too. (not anything exciting!)
 
-Next step is to change the email address to target's email address. It sends a verification token to his account,which the attacker can't access. 
+Next step is to change the email address to target's email address. It sends a verification token to his account, which the attacker can't access. 
 
 But attacker then uses initially generated tokens to successfully verify target's email address on his Instagram account.
 

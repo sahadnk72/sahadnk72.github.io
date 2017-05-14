@@ -24,7 +24,7 @@ I found it possible to cicumvent this feature to add any business email address 
 
 5. Complete the request and reload the page.
 
-It adds the new email address bypassing the verification process.
+It could've added the new email address bypassing the verification process.
 
 
 {% highlight text %} 

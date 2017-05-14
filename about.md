@@ -10,6 +10,6 @@ My name is Sahad NK, I'm a security enthusiast with interest in bug bounty, pene
 Contact me :
 
 * Email - sahad2nd[at]gmail.com
-* Twitter - @sahad_nk
+* [Twitter] - (https://twitter.com/sahad_nk)
 * [Facebook](https://facebook.com/sahad.nk.nk/)
 

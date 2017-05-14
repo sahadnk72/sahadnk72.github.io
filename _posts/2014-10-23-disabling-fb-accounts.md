@@ -14,7 +14,7 @@ The link behind {% highlight text %}Didn't sign up for Facebook?{% endhighlight 
 `https://www.facebook.com/confirmemail.php?e=EMAIL_ID&c=5-DIGIT-CODE&report=1`
 
 
-The parameter `c` could be brute-forced by an attacker to find the right confirmation code and disable someone's unverified Facebook account. 
+The parameter `c` could be brute-forced by an attacker to find the right confirmation code and disable anyone's unverified Facebook account. 
 
 Facebook fixed this after it was reported to the security team.
 

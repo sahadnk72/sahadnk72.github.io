@@ -38,7 +38,7 @@ Then there is a chance that the same token (`6dd53acf465aa5fbb91ba2a6c7f7`) gets
 #### How it works
 
 
-Step 1 : Attacker creates an account with his own email address (for eg,`attacker@gmail.com`)
+Step 1 : Attacker creates an account with his own email address (for eg,`attacker@gmail.com`).
 
 Step 2 : Attacker verifies the email address by clicking on the email verification link received to his inbox.
 
@@ -46,10 +46,10 @@ Step 3 : Attacker requests for a password recovery link for his account and extr
 
 Step 4 : Attacker goes on and edits the account settings to change his email to an email address with target's domain name (`attacker@xcompany.com`) which sends an email verification link (with `verifytoken`)to that email address which doesn't even exist.
 
-Step 5 : Attacker uses the initially extracted token (`passtoken`) on email-verify endpoint and circumvents the protection and ends up being a member of `xCompany`. Profit!!
+Step 5 : Attacker uses the initially extracted token (`passtoken`) on email-verify endpoint and circumvents the protection ending up being a member of `xCompany`. Profit!!
 
 
-It worked because,both the `passtoken` and `verifytoken` were still valid for his account, and the application failed to validate/differentiate it's purpose. 
+It worked because, both the `passtoken` and `verifytoken` were still valid for his account, and the application failed to validate/differentiate it's purpose. 
 
 
 {% highlight text %} 

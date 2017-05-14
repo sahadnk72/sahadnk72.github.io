@@ -10,7 +10,7 @@ title: Bypassing Instagram Email Verification System
 It is similar to the <a href="/2014/09/08/bypass-email-oculus/">Oculus Email Verification Bypass</a> vulnerability I reported except that it only involved of changing attacker's own email address for a couple of times
 and generating a new secret-token to the attacker's own email inbox.
 
-Yeah, and some Base-64 magics too. (not anything new)
+Yeah, and some Base-64 magics too. (not anything exciting!)
 
 Next step is to change the email address to target's email address. It sends a verification token to his account,which the attacker can't access. 
 

@@ -25,7 +25,7 @@ He can create an account/replace existing email with target's email address(`att
 #### Description
 
 
-I've encountered it multiple times that some web-applications accepts the same secret-token or verification-code on multiple endpoints.To be more specific, when we request for a password recovery, a password reset token is sent 
+I've encountered it multiple times that some web-applications accepts the same secret-token or verification-code on multiple endpoints. To be more specific, when we request for a password recovery, a password reset token is sent 
 to our email address.Consider the link received through email looks like this:
 
 `https://developer.oculusvr.com/pass-reset?token=6dd53acf465aa5fbb91ba2a6c7f7`

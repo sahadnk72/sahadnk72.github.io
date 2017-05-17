@@ -24,7 +24,7 @@ Site.com fixed the vulnerability by validating the response they receive from re
 
 After that, I went ahead and gave Facebook a heads up as there must be hundreds of apps following the same strategy in their implementations. Although it had nothing to do with Facebook, it still had something to do with 
 them as throwing appsecret_proof which the client just submitted,back to them within the error message was pretty unnecessary and something Facebook had
-forgotten to validate. Facebook denied to fix the issue stating that it's the client's responsiblity to properly validate the API response and mentioned that those error messages would help in troubleshooting.
+forgotten to consider. Facebook denied to fix the issue stating that it's the client's responsiblity to properly validate the API response and mentioned that those error messages would help in troubleshooting.
 
 
 Thanks for reading!

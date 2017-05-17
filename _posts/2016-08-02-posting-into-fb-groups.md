@@ -13,7 +13,7 @@ even before my report. This is just another example of how code changes must hav
 #### Description
 
 
-According to Facebook's Graph API documentation about <a href="https://developers.facebook.com/docs/graph-api/reference/v2.9/group/feed">publishing to groups</a> other than 'App and Games groups' needs `publish_actions` and either `user_managed_groups` or `user_groups` permissions.
+According to Facebook's Graph API documentation about <a href="https://developers.facebook.com/docs/graph-api/reference/v2.9/group/feed">publishing to groups</a> other than 'App and Games groups', `publish_actions` and either `user_managed_groups` or `user_groups` permissions are needed.
 
 It was found possible to publish through the `photos` edge without setting `user_managed_groups` or `user_groups` scope, but only `publish_actions` in the access_token. 
 
@@ -24,13 +24,13 @@ It posts an update to the attacker targeted group (ofcourse, victim should be a 
 #### Reproduction:
 
 
-1.Get an access_token from a test account with `publish_actions` scope set.
+1. Get an access_token from a test account with `publish_actions` scope set.
 
-2.Using Graph Explorer, make a post on behalf of the user to the 'photos' edge of the node {group-id}.
+2. Using Graph Explorer, make a post on behalf of the user to the 'photos' edge of the node {group-id}.
 
-2.Use the POST field `url` and point it an image url.
+2. Use the POST field `url` and point it an image url.
 
-3.Complete the request.
+3. Complete the request.
 
 It returns an id and post_id after posting the update. 
 

@@ -26,7 +26,7 @@ After shortening an external url with fb.me, I checked if visiting blah.fb.me wo
 `https://www.facebook.com/browsegroups/addcover/log/?groupid=1&groupuri=https://<anything>.fb.me/iDent1fi3R`
 
 
-What happened here is, instead of using a regex based validation technique, Facebook relied up on a black-listed based approach. 
+What happened here is, instead of using a regex based validation, Facebook relied up on a black-listed based approach. 
 
 {% highlight text %}
 Reported - Dec 15 2016 

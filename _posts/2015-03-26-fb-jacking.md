@@ -32,7 +32,7 @@ HTTP header, but in a meta tag by putting it in a <noscript> tag
 
 `<noscript><meta http-equiv="X-Frame-­Options" content="deny"> </noscript>`
 
-Meta-tags that attempt to apply the X-Frame-Options directive DO NOT WORK. For example, <meta http-equiv="X-Frame-­Options" content="deny">) will not work. You must apply the X-FRAME-OPTIONS directive as HTTP Response Header.
+Meta-tags that attempt to apply the X-Frame-Options directive DO NOT WORK. For example, `<meta http-equiv="X-Frame-­Options" content="deny">` will not work. You must apply the X-FRAME-OPTIONS directive as HTTP Response Header.
 
 
 The main point here is browsers ignores what is given in meta tag and do not defend framing, (tested in Firefox 35).

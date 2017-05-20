@@ -10,6 +10,6 @@ I'm a security enthusiast with interest in bug bounty, penetration testing and r
 Contact me :
 
 * Email - sahad2nd[at]gmail.com
-* [Twitter](https://twitter.com/sahad_nk)
+* [Twitter](https://twitter.com/sahad_nk/)
 * [Facebook](https://facebook.com/sahad.nk.nk/)
 

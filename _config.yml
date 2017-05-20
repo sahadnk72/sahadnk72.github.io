@@ -4,7 +4,7 @@ permalink:        pretty
 # Setup
 title:            PageFault
 tagline:          'Security blog'
-description:      'Bug bounty rants | App-sec ramblings'
+description:      'Bug bounty rants | App-sec ramblings     Reconnaissance is the key! Fuzz for the holes!'
 url:              http://pagefault.me
 baseurl:          /
 

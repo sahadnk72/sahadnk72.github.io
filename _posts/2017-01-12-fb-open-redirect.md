@@ -8,7 +8,7 @@ title: Unvalidated URL Redirect - Facebook Bug Bounty
 #### Description
 
 
-An open redirector requires no explanation. Unvalidated redirects and forwards are possible when a web application 
+An open redirect requires no explanation. Unvalidated redirects and forwards are possible when a web application 
 accepts untrusted input that could cause the web application to redirect the request to a URL contained within untrusted input.
 
 

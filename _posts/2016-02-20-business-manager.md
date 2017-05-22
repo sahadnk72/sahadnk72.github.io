@@ -5,9 +5,9 @@ title: Facebook Business Manager Email Address Verification Bypass
 
 ---
 
-#### Description
+#### Description:
 
-When a <a href="https://business.facebook.com">Business Manager</a> user decides to change his/her business email under user settings, they should verify the email ownership by clicking on a link sent to that email. 
+When a <a href="https://business.facebook.com">Business Manager</a> user decides to change his/her business email address under user settings, they should verify the email ownership by clicking on a link sent to that email. 
 This verification procedure is to prevent abuse.
 
 I found it possible to cicumvent this feature to add any business email address without verification.

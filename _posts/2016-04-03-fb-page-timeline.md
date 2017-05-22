@@ -16,7 +16,7 @@ It was possible for a page moderator with Facebook Messenger access_token to cha
 
 The GET parameter `timeline_visibility` can have any of these values: `hidden`, `normal` or `starred`. 
 
-According to <a href="https://www.facebook.com/help/323502271070625/">Page Role specifications</a>, it should not have happened. 
+According to <a href="https://www.facebook.com/help/323502271070625/" target=_blank>Page Role specifications</a>, it should not have happened. 
 
  
 Upon successful request, the timeline visibility of the particular post changed into whatever state was passed through that parameter.

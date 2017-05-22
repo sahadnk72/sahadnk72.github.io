@@ -17,22 +17,22 @@ According to Facebook's Graph API documentation about <a href="https://developer
 
 It was found possible to publish through the `photos` edge without setting `user_managed_groups` or `user_groups` scope, but only `publish_actions` in the access_token. 
 
-#### Worst part:
+#### Impact:
 
 It posts an update to the attacker targeted group (ofcourse, victim should be a member of) EVEN if the user had only granted 'ONLY ME' privacy mode for posts while allowing the access token.
 
 #### Reproduction:
 
 
-1. Get an access_token from a test account with `publish_actions` scope set.
+1. Get an access_token for Graph API Explorer from a test account with `publish_actions` scope set.
 
-2. Using Graph Explorer, make a post on behalf of the user to the 'photos' edge of the node {group-id}.
+2. Using Graph API Explorer, make a post on behalf of the user to the 'photos' edge of node {group-id}.
 
-2. Use the POST field `url` and point it an image url.
+3. Use the POST field `url` and point it an image url.
 
-3. Complete the request.
+4. Complete the request.
 
-It returns an id and post_id after posting the update. 
+It returns an id and post_id after posting the update. Facebook fixed vulnerability after it was reported to them.
 
 {% highlight text %} 
 Report sent : 02 Sep 2015 

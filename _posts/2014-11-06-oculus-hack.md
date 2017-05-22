@@ -17,7 +17,7 @@ Watch the video!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/01a1aProHRU" frameborder="0" allowfullscreen></iframe>
 
-Here I used array type in query parameters to confuse the web application which must have resulted in skipping some condition checks in the logic responsible for password reset functionality.
+Here I used array type in query parameters to confuse the web application which must have resulted in skipping some condition checks in the logic responsible for the password reset functionality.
 
 Boom!! Keep fuzzing until you find the hole!!
 

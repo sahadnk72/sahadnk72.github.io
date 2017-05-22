@@ -19,7 +19,7 @@ The GET parameter `timeline_visibility` can have any of these values: `hidden`, 
 According to <a href="https://www.facebook.com/help/323502271070625/" target="_blank">Page Role specifications</a>, it should not have happened. 
 
  
-Upon successful request, the timeline visibility of the particular post changed into whatever state was passed through that parameter.
+Upon successful request, the timeline visibility of the particular post changed into whatever state was passed through the parameter.
 
 
 {% highlight text %} 

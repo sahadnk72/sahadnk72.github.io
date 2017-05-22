@@ -14,12 +14,16 @@ accepts untrusted input that could cause the web application to redirect the req
 
 #### PoC
 
-I found that the GET parameter named `groupuri` at the endpoint `https://www.facebook.com/browsegroups/addcover/log` could be manipulated to achieve
-url redirections to external websites. It disallowed direct injection of external links and any suspicious activity would cause a redirection to /home.php.
-So I abused the URL shortening feature `fb.me`. It had some black-list based validations to ensure that no redirections are permitted towards existing `fb.me` service domains 
-such as `d.fb.me` , `on.fb.me`, `www.fb.me` and `fb.me`.
-After some fuzzing and playing around with the parameter `groupuri`, I tried if any arbitrary subdomain of fb.me (for eg: `blah.fb.me`) except the ones mentioned above would work and VOILAAA...a `302` was issued.
-After shortening an external url with fb.me, I checked if visiting blah.fb.me would actually make a redirection to the website and fortunately that worked. I proceeded on to making a cool report. So the final url looked like this : 
+After dorking a lot about old endpoints in Facebook, I found the following endpoint.
+
+`https://www.facebook.com/browsegroups/addcover/log`
+
+
+It was found to be accepting user inputs through a GET parameter named `groupuri` and the expected value was a URL, to make redirections into the specified URL. I found that it could be manipulated to achieve
+URL redirections to external websites. From initial tests it was found to be disallowing any external links to be put through that field. Any suspicious activity would cause a redirection to /home.php.
+So I abused Facebook's own URL shortening feature `fb.me`. Even though it had some black-list based validations to ensure that no redirections are permitted towards existing `fb.me` service domains 
+such as `d.fb.me` , `on.fb.me`, `www.fb.me` and `fb.me`, I came to see that by simply putting any arbitrary subdomains  of fb.me (which was non-existing : for eg: `blah.fb.me`) would work and `302` was getting issued.
+After shortening an external url with fb.me, I checked if visiting the arbitrary subdomain would actually make a redirection to the website and fortunately that worked. I proceeded on to making a cool report. So the final url looked like this : 
 
 
 

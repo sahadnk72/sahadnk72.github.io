@@ -4,7 +4,7 @@ title: About
 ---
 
 
-I'm a web-app security enthusiast based in India. Passionate about bug bounties, penetration testing/red teaming. Have developed a few web-apps, helped vendors patch vulnerabilities in their systems and also wasted a damn amount of time pursuing something which was not my thing. And hell yeah, I've failed a lot of times. While I'm not making things, I'm breaking things. Currently searching for the right job. Oh, did I forget to tell you that I like to travel and eat (a lot)? 
+I'm a web-app security enthusiast based in India. Passionate about bug bounties, penetration testing/red teaming. Have developed a few web-apps, helped vendors patch vulnerabilities in their systems and also wasted a damn amount of time pursuing something which was not my thing. And hell yeah, I've failed a lot of times. While I'm not making things, I'm breaking things. Currently, searching for the right job. Oh, did I forget to tell you that I like to travel and eat (a lot)? 
 
 
 <b><u>Contact me :</u></b>

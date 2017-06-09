@@ -32,7 +32,7 @@ It posts an update to the attacker targeted group (ofcourse, victim should be a 
 
 4. Complete the request.
 
-It returns an id and post_id after posting the update. Facebook fixed vulnerability after it was reported to them.
+It returns an id and post_id after posting the update. Facebook fixed the vulnerability after it was reported to them.
 
 {% highlight text %} 
 Report sent : 02 Sep 2015 

@@ -14,7 +14,7 @@ accepts untrusted input that could cause the web application to redirect the req
 
 #### PoC
 
-After dorking a lot about old endpoints in Facebook, I found the following endpoint.
+After dorking a lot for old endpoints in Facebook, I found the following endpoint.
 
 `https://www.facebook.com/browsegroups/addcover/log`
 

@@ -5,8 +5,8 @@ permalink:        pretty
 title:            PageFault
 tagline:          'Security blog'
 description:      'Bug bounty rants | App-sec ramblings'
-url:              http://pagefault.me
-baseurl:          /
+url:              https://pagefault.me
+baseurl:          https://pagefault.me
 
 author:
   name:           'Sahad NK'

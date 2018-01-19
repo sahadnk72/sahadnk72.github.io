@@ -6,7 +6,7 @@ title:            PageFault
 tagline:          'Security blog'
 description:      'Bug bounty rants | App-sec ramblings'
 url:              https://pagefault.me
-baseurl:          https://pagefault.me
+baseurl:          https://pagefault.me/
 
 author:
   name:           'Sahad NK'

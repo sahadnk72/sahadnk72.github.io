@@ -9,5 +9,5 @@ Application security enthusiast based in India. Passionate in security, defense 
 
 <b><u>Contact me :</u></b>
 
-* Email - sahad2nd[@]gmail[.]com
+* Email - sahad2nd[at]gmail[dot]com
 * Twitter - @sahad_nk

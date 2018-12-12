@@ -18,7 +18,7 @@ Which basically means, whatever we host on `successcenter-msprod`; `success.offi
 ### Second Issue:
 
 Microsoft uses WS Federation for it's implementation of a centralized login system for most of the applications including Outlook, Sway, Microsoft Store etc. WS Fed is similar to Oauth. 
-`wreply` in WS Fed is the counterpart of `redirect_url` in Oauth. If you read Nir Goldshlager's <a href="http://nirgoldshlager.blogspot.com/" Facebook Oauth bug series></a>, you will understand
+`wreply` in WS Fed is the counterpart of `redirect_url` in Oauth. If you read about Nir Goldshlager's <a href="http://nirgoldshlager.blogspot.com/">Facebook Oauth bug series</a>, you will understand
 the dangers of not using an exact URL match (or not properly validating) for wreply or redirect_url wherever possible. Here in this case, Microsoft 
 was allowing any subdomains of office.com (*.office.com) to be a valid wreply URI. 
 

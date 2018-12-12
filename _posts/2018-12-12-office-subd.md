@@ -10,8 +10,7 @@ title: Leaking access tokens from Microsoft apps chaining two vulnerabilities
 
 First Issue:
 
-During the initial reconnaissance I searched for subdomains of office.com pointing to many Azure instances. One of them was success.office.com which 
-was not getting resolved, but had a CNAME pointing to an Azure web app instance `successcenter-msprod`. 
+During the initial reconnaissance I retrieved the list all possible subdomains of office.com pointing to many Azure instances. One of them was success.office.com which was not getting resolved, but had a CNAME pointing to an Azure web app instance `successcenter-msprod`. 
 Chances are that you can takeover an Azure instance if the domain is not getting resolved. So I tried to create a web app with the name `successcenter-msprod` in my Azure portal
 and it was accepted as a valid name. In other words, the previous instance with that name had been removed and is now free.
 Which basically means, whatever we host on `successcenter-msprod`; `success.office.com` would point to it as the CNAME record specifies. 
@@ -32,7 +31,7 @@ Basically, if any user who clicked on a crafted link with this changes, the toke
 for a session token and subsequently an account takeover would result.
 
 
-<img src="http://139.59.39.57/images/outlook.jpg" height="500px" width="900px"/>
+<img src="http://139.59.39.57/images/outlook.jpg" />
 
 
 PS : There are different news being spread out with different hypes which may not reflect pure technical terms or properly specify

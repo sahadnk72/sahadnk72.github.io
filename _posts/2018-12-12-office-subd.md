@@ -8,14 +8,14 @@ title: Leaking access tokens from Microsoft apps chaining two vulnerabilities
 
 
 
-First Issue:
+### First Issue:
 
 During the initial reconnaissance I retrieved the list all possible subdomains of office.com pointing to many Azure instances. One of them was success.office.com which was not getting resolved, but had a CNAME pointing to an Azure web app instance `successcenter-msprod`. 
 Chances are that you can takeover an Azure instance if the domain is not getting resolved. So I tried to create a web app with the name `successcenter-msprod` in my Azure portal
 and it was accepted as a valid name. In other words, the previous instance with that name had been removed and is now free.
 Which basically means, whatever we host on `successcenter-msprod`; `success.office.com` would point to it as the CNAME record specifies. 
 
-Second Issue:
+### Second Issue:
 
 Microsoft uses WS Federation for it's implementation of a centralized login system for most of the applications including Outlook, Sway, Microsoft Store etc. WS Fed is similar to Oauth. 
 `wreply` in WS Fed is the counterpart of `redirect_url` in Oauth. If you read Nir Goldshlager's Facebook Oauth bug series, you will understand

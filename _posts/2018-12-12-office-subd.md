@@ -33,4 +33,6 @@ for a session token and subsequently an account takeover would result.
 
 <img src="http://139.59.39.57/images/outlook.jpg" />
 
+<a href="https://www.safetydetective.com/blog/microsoft-outlook/"></a>
+
 

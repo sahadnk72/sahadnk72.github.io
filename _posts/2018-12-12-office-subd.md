@@ -32,7 +32,7 @@ Basically, if any user who clicked on a crafted link with this changes, the toke
 for a session token and subsequently an account takeover would result.
 
 
-<img src="http://139.59.39.57/images/outlook.jpg" height="500px" width="500px"/>
+<img src="http://139.59.39.57/images/outlook.jpg" height="500px" width="900px"/>
 
 
 PS : There are different news being spread out with different hypes which may not reflect pure technical terms or properly specify

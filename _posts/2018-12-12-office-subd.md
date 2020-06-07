@@ -30,7 +30,7 @@ Since one of their subdomain was in my control, I could use the domain as a vali
 Basically, if any user who has already been authenticated (or going to authenticate), "clicked" on a crafted link with the above changes, the tokens would get leaked and this token can be exchanged for a session token and subsequently an account takeover would result.
 
 
-<img src="http://139.59.39.57/images/outlook.jpg" />
+<img src="https://raw.githubusercontent.com/sahadnk72/sahadnk72.github.io/master/files/outlook.jpg" />
 
 <a href="https://www.safetydetective.com/blog/microsoft-outlook/"></a>
 

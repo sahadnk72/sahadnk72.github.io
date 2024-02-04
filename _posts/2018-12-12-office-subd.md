@@ -40,9 +40,9 @@ Basically, if any user who has already been authenticated (or going to authentic
 
 This finding has gained some media attention. A few of them are listed below:
 
-#### NDTV: <a href="https://www.ndtv.com/kerala-news/kerala-based-security-engineer-spots-bug-in-microsoft-office-365-outlook-1961352">Link</a>
-#### TechCrunch: <a href="https://techcrunch.com/2018/12/11/microsoft-login-bug-hijack-office-accounts/">Link</a>
-#### MensXP: <a href="https://www.mensxp.com/technology/hacks/48785-a-kerala-based-engineer-uncovered-a-bug-that-could-expose-more-than-40-crore-microsoft-accounts.html">Link</a>
-#### Mashable: <a href="https://mashable.com/article/microsoft-account-takeover-vulnerability">Link</a>
-#### IndiaTimes: <a href="https://www.indiatimes.com/technology/news/this-young-hacker-from-kerala-found-a-microsoft-bug-saving-the-account-data-of-40-crore-users-358466.html">Link</a>
+#### NDTV: <a href="https://www.ndtv.com/kerala-news/kerala-based-security-engineer-spots-bug-in-microsoft-office-365-outlook-1961352" target="_blank">Link</a>
+#### TechCrunch: <a href="https://techcrunch.com/2018/12/11/microsoft-login-bug-hijack-office-accounts/" target="_blank">Link</a>
+#### MensXP: <a href="https://www.mensxp.com/technology/hacks/48785-a-kerala-based-engineer-uncovered-a-bug-that-could-expose-more-than-40-crore-microsoft-accounts.html" target="_blank">Link</a>
+#### Mashable: <a href="https://mashable.com/article/microsoft-account-takeover-vulnerability" target="_blank">Link</a>
+#### IndiaTimes: <a href="https://www.indiatimes.com/technology/news/this-young-hacker-from-kerala-found-a-microsoft-bug-saving-the-account-data-of-40-crore-users-358466.html" target="_blank">Link</a>
 

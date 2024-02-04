@@ -35,6 +35,7 @@ In the below screenshot, you can see the tokens getting leaked to the server I c
 
 <img src="https://raw.githubusercontent.com/sahadnk72/sahadnk72.github.io/master/files/outlook.jpg" />
 <a href="https://www.safetydetective.com/blog/microsoft-outlook/"></a>
+
 ### Media Coverage:
 
 This finding has gained some media attention. A few of them are listed below:

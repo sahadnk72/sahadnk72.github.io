@@ -20,8 +20,6 @@ Watch the video!
 
 I sent the query parameters as arrays to confuse the application which resulted in skipping some condition checks in the logic responsible for the password reset.
 
-Boom!! Keep fuzzing until you find the hole!!
-
 
 A nice bounty followed up after it was reported to the Facebook security team.
 
